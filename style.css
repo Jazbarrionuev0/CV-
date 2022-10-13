@@ -1,8 +1,4 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
+
 .cv {
     position: relative;
     height: 1319px;
@@ -84,11 +80,11 @@ header {
     margin: 5px;
 }
 a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none !important;
+    color: black !important;
 }
 a:hover {
-    color: white;
+    color: white !important;
 }
 /* MAIN */
 .main {
@@ -115,7 +111,7 @@ li {
     border: 2px solid white;
     border-radius: 50%;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 450px)  {
     body {
         display: block;
         margin: 0;
